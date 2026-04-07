@@ -109,3 +109,20 @@
 [2026-04-07 11:36:16 UTC]   📌 First snapshot: ABB (1 entries)
 [2026-04-07 11:36:17 UTC] Done. Checked 197 | Changes: 0 | Errors: 90
 [2026-04-07 11:36:24 UTC] ============================================================
+[2026-04-07 11:53:03 UTC] ============================================================
+[2026-04-07 11:53:03 UTC] Job Monitor started
+[2026-04-07 11:53:08 UTC]   🚨 PAGE CHANGED: Google
+[2026-04-07 11:54:07 UTC]   🚨 PAGE CHANGED: Cisco
+[2026-04-07 12:00:02 UTC]   🚨 NEW JOBS at Stripe: {'Engagement Manager | Dublin, Ireland'}
+[2026-04-07 12:00:07 UTC]   🚨 NEW JOBS at Databricks: {'Strategic Core Account Executive - Discrete Manufacturing | Hesse, Germany', 'Strategic Core Account Executive - Discrete Manufacturing | Berlin, Germany'}
+[2026-04-07 12:03:28 UTC]   🚨 PAGE CHANGED: Snowflake
+[2026-04-07 12:09:30 UTC]   🚨 PAGE CHANGED: BCG
+[2026-04-07 12:17:08 UTC]   🚨 PAGE CHANGED: Mastercard
+[2026-04-07 12:17:11 UTC]   🚨 PAGE CHANGED: American Express
+[2026-04-07 12:17:20 UTC]   🚨 NEW JOBS at Agoda: {'[ITO] (Infra) Software Engineering Manager (Bangkok-based, relocation provided) | Bangkok, Thailand'}
+[2026-04-07 12:17:35 UTC]   🚨 NEW JOBS at Pure Storage: {'Strategic Account Executive, GSI - France | Paris, France'}
+[2026-04-07 12:17:59 UTC]   🚨 PAGE CHANGED: Societe Generale
+[2026-04-07 12:21:15 UTC]   🚨 NEW JOBS at Commvault: {'Principal Product Manager, Security | Bangalore, India'}
+[2026-04-07 12:21:35 UTC]   🚨 PAGE CHANGED: ABB
+[2026-04-07 12:21:36 UTC] Done. Checked 197 | Changes: 13 | Errors: 93
+[2026-04-07 12:21:37 UTC] ============================================================
