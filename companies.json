@@ -1,199 +1,2102 @@
 [
-  { "name": "Google",             "type": "html",       "url": "https://careers.google.com/jobs/results/",                       "approx_ctc_lpa": 80  },
-  { "name": "Microsoft",          "type": "html",       "url": "https://jobs.microsoft.com/en/search",                           "approx_ctc_lpa": 60  },
-  { "name": "Amazon",             "type": "html",       "url": "https://www.amazon.jobs/en/search",                              "approx_ctc_lpa": 40  },
-  { "name": "Meta",               "type": "html",       "url": "https://www.metacareers.com/jobs",                               "approx_ctc_lpa": 80  },
-  { "name": "Apple",              "type": "html",       "url": "https://jobs.apple.com/en-us/search",                            "approx_ctc_lpa": 60  },
-  { "name": "Netflix",            "type": "lever",      "slug": "netflix",                                                       "approx_ctc_lpa": 80  },
-  { "name": "Uber",               "type": "greenhouse", "slug": "uber",                                                          "approx_ctc_lpa": 45  },
-  { "name": "LinkedIn",           "type": "html",       "url": "https://careers.linkedin.com/",                                  "approx_ctc_lpa": 50  },
-  { "name": "Twitter / X",        "type": "html",       "url": "https://careers.x.com/en/jobs",                                  "approx_ctc_lpa": 50  },
-  { "name": "Nvidia",             "type": "workday",    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite",  "approx_ctc_lpa": 70  },
-  { "name": "Intel",              "type": "html",       "url": "https://jobs.intel.com/en",                                      "approx_ctc_lpa": 35  },
-  { "name": "Qualcomm",           "type": "html",       "url": "https://careers.qualcomm.com/careers",                          "approx_ctc_lpa": 40  },
-  { "name": "Oracle",             "type": "html",       "url": "https://careers.oracle.com/jobs",                               "approx_ctc_lpa": 30  },
-  { "name": "Cisco",              "type": "html",       "url": "https://jobs.cisco.com",                                         "approx_ctc_lpa": 30  },
-  { "name": "Texas Instruments",  "type": "html",       "url": "https://careers.ti.com/",                                       "approx_ctc_lpa": 30  },
-  { "name": "IBM",                "type": "html",       "url": "https://www.ibm.com/careers/search",                             "approx_ctc_lpa": 25  },
-  { "name": "SAP",                "type": "html",       "url": "https://jobs.sap.com/search/",                                   "approx_ctc_lpa": 28  },
-  { "name": "Salesforce",         "type": "workday",    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site", "approx_ctc_lpa": 35  },
-  { "name": "Adobe",              "type": "workday",    "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced",       "approx_ctc_lpa": 40  },
-  { "name": "ServiceNow",         "type": "html",       "url": "https://careers.servicenow.com/careers",                        "approx_ctc_lpa": 35  },
-  { "name": "Stripe",             "type": "greenhouse", "slug": "stripe",                                                        "approx_ctc_lpa": 80  },
-  { "name": "Figma",              "type": "greenhouse", "slug": "figma",                                                         "approx_ctc_lpa": 60  },
-  { "name": "Notion",             "type": "greenhouse", "slug": "notion",                                                        "approx_ctc_lpa": 55  },
-  { "name": "Canva",              "type": "greenhouse", "slug": "canva",                                                         "approx_ctc_lpa": 50  },
-  { "name": "MongoDB",            "type": "greenhouse", "slug": "mongodb",                                                       "approx_ctc_lpa": 40  },
-  { "name": "Twilio",             "type": "greenhouse", "slug": "twilio",                                                        "approx_ctc_lpa": 40  },
-  { "name": "Confluent",          "type": "greenhouse", "slug": "confluent",                                                     "approx_ctc_lpa": 45  },
-  { "name": "Databricks",         "type": "greenhouse", "slug": "databricks",                                                    "approx_ctc_lpa": 60  },
-  { "name": "Cloudflare",         "type": "greenhouse", "slug": "cloudflare",                                                    "approx_ctc_lpa": 50  },
-  { "name": "GitLab",             "type": "greenhouse", "slug": "gitlab",                                                        "approx_ctc_lpa": 45  },
-  { "name": "Grafana Labs",       "type": "greenhouse", "slug": "grafana",                                                       "approx_ctc_lpa": 40  },
-  { "name": "Rubrik",             "type": "greenhouse", "slug": "rubrik",                                                        "approx_ctc_lpa": 40  },
-  { "name": "Freshworks",         "type": "greenhouse", "slug": "freshworks",                                                    "approx_ctc_lpa": 30  },
-  { "name": "Meesho",             "type": "greenhouse", "slug": "meesho",                                                        "approx_ctc_lpa": 35  },
-  { "name": "Browserstack",       "type": "greenhouse", "slug": "browserstack",                                                  "approx_ctc_lpa": 30  },
-  { "name": "Postman",            "type": "greenhouse", "slug": "postman",                                                       "approx_ctc_lpa": 35  },
-  { "name": "Chargebee",          "type": "greenhouse", "slug": "chargebee",                                                     "approx_ctc_lpa": 28  },
-  { "name": "Sentry",             "type": "greenhouse", "slug": "sentry",                                                        "approx_ctc_lpa": 40  },
-  { "name": "Hasura",             "type": "greenhouse", "slug": "hasura",                                                        "approx_ctc_lpa": 30  },
-  { "name": "Groww",              "type": "greenhouse", "slug": "groww",                                                         "approx_ctc_lpa": 35  },
-  { "name": "Jupiter",            "type": "greenhouse", "slug": "jupiter",                                                       "approx_ctc_lpa": 28  },
-  { "name": "Zepto",              "type": "greenhouse", "slug": "zepto",                                                         "approx_ctc_lpa": 30  },
-  { "name": "Navi",               "type": "greenhouse", "slug": "navi",                                                          "approx_ctc_lpa": 30  },
-  { "name": "Smallcase",          "type": "greenhouse", "slug": "smallcase",                                                     "approx_ctc_lpa": 28  },
-  { "name": "Cashfree",           "type": "greenhouse", "slug": "cashfree",                                                      "approx_ctc_lpa": 25  },
-  { "name": "CRED",               "type": "lever",      "slug": "cred",                                                          "approx_ctc_lpa": 35  },
-  { "name": "Razorpay",           "type": "lever",      "slug": "razorpay",                                                      "approx_ctc_lpa": 40  },
-  { "name": "Spotify",            "type": "lever",      "slug": "spotify",                                                       "approx_ctc_lpa": 60  },
-  { "name": "Shopify",            "type": "lever",      "slug": "shopify",                                                       "approx_ctc_lpa": 55  },
-  { "name": "Atlassian",          "type": "lever",      "slug": "atlassian",                                                     "approx_ctc_lpa": 55  },
-  { "name": "Airbnb",             "type": "greenhouse", "slug": "airbnb",                                                        "approx_ctc_lpa": 60  },
-  { "name": "Dropbox",            "type": "greenhouse", "slug": "dropbox",                                                       "approx_ctc_lpa": 50  },
-  { "name": "Ola",                "type": "html",       "url": "https://ola.hire.trakstar.com/",                                 "approx_ctc_lpa": 30  },
-  { "name": "Urban Company",      "type": "lever",      "slug": "urban-company",                                                 "approx_ctc_lpa": 25  },
-  { "name": "Flipkart",           "type": "html",       "url": "https://www.flipkartcareers.com/#!/joblist",                     "approx_ctc_lpa": 40  },
-  { "name": "Zomato",             "type": "html",       "url": "https://www.zomato.com/careers",                                 "approx_ctc_lpa": 35  },
-  { "name": "Swiggy",             "type": "html",       "url": "https://careers.swiggy.com/#/careers",                          "approx_ctc_lpa": 35  },
-  { "name": "Myntra",             "type": "html",       "url": "https://careers.myntra.com/",                                   "approx_ctc_lpa": 30  },
-  { "name": "Nykaa",              "type": "html",       "url": "https://nykaa.darwinbox.in/ms/candidate/careers",               "approx_ctc_lpa": 25  },
-  { "name": "BigBasket",          "type": "html",       "url": "https://www.bigbasket.com/careers/",                            "approx_ctc_lpa": 23  },
-  { "name": "BookMyShow",         "type": "html",       "url": "https://in.bookmyshow.com/careers/job-listing",                 "approx_ctc_lpa": 25  },
-  { "name": "MakeMyTrip",         "type": "html",       "url": "https://careers.makemytrip.com/",                               "approx_ctc_lpa": 25  },
-  { "name": "PolicyBazaar",       "type": "html",       "url": "https://www.policybazaar.com/about-us/careers/",                "approx_ctc_lpa": 22  },
-  { "name": "Cars24",             "type": "html",       "url": "https://www.cars24.com/careers/",                               "approx_ctc_lpa": 25  },
-  { "name": "Paytm",              "type": "html",       "url": "https://paytm.com/about-us/careers/",                           "approx_ctc_lpa": 25  },
-  { "name": "PhonePe",            "type": "html",       "url": "https://www.phonepe.com/en/careers.html",                       "approx_ctc_lpa": 35  },
-  { "name": "Zerodha",            "type": "html",       "url": "https://zerodha.com/careers/",                                  "approx_ctc_lpa": 25  },
-  { "name": "Angel One",          "type": "html",       "url": "https://www.angelone.in/careers",                               "approx_ctc_lpa": 20  },
-  { "name": "CoinDCX",            "type": "html",       "url": "https://coindcx.com/careers/",                                  "approx_ctc_lpa": 30  },
-  { "name": "CoinSwitch",         "type": "html",       "url": "https://coinswitch.co/careers",                                 "approx_ctc_lpa": 36  },
-  { "name": "BharatPe",           "type": "html",       "url": "https://bharatpe.com/careers",                                  "approx_ctc_lpa": 28  },
-  { "name": "Fi Money",           "type": "html",       "url": "https://fi.money/careers",                                      "approx_ctc_lpa": 30  },
-  { "name": "Goldman Sachs",      "type": "html",       "url": "https://www.goldmansachs.com/careers/",                         "approx_ctc_lpa": 40  },
-  { "name": "JP Morgan",          "type": "html",       "url": "https://careers.jpmorgan.com/us/en/home",                       "approx_ctc_lpa": 40  },
-  { "name": "Morgan Stanley",     "type": "html",       "url": "https://www.morganstanley.com/careers/",                        "approx_ctc_lpa": 38  },
-  { "name": "Deutsche Bank",      "type": "html",       "url": "https://careers.db.com/india/",                                 "approx_ctc_lpa": 35  },
-  { "name": "BlackRock",          "type": "html",       "url": "https://careers.blackrock.com/students-and-graduates-apac",     "approx_ctc_lpa": 36  },
-  { "name": "Bloomberg",          "type": "html",       "url": "https://www.bloomberg.com/company/careers/",                    "approx_ctc_lpa": 45  },
-  { "name": "Axis Bank",          "type": "html",       "url": "https://www.axisbank.com/careers/campus-careers",               "approx_ctc_lpa": 21  },
-  { "name": "HDFC Bank",          "type": "html",       "url": "https://www.hdfcbank.com/careers",                              "approx_ctc_lpa": 20  },
-  { "name": "ICICI Bank",         "type": "html",       "url": "https://www.icicibankjobs.com/",                                "approx_ctc_lpa": 20  },
-  { "name": "Kotak Mahindra",     "type": "html",       "url": "https://careers.kotak.com/",                                    "approx_ctc_lpa": 20  },
-  { "name": "Snowflake",          "type": "workday",    "url": "https://careers.snowflake.com/us/en",                           "approx_ctc_lpa": 60  },
-  { "name": "HashiCorp",          "type": "greenhouse", "slug": "hashicorp",                                                     "approx_ctc_lpa": 50  },
-  { "name": "Elastic",            "type": "greenhouse", "slug": "elastic",                                                       "approx_ctc_lpa": 45  },
-  { "name": "Datadog",            "type": "greenhouse", "slug": "datadog",                                                       "approx_ctc_lpa": 50  },
-  { "name": "New Relic",          "type": "greenhouse", "slug": "newrelic",                                                      "approx_ctc_lpa": 40  },
-  { "name": "PagerDuty",          "type": "greenhouse", "slug": "pagerduty",                                                     "approx_ctc_lpa": 40  },
-  { "name": "Harness",            "type": "greenhouse", "slug": "harness",                                                       "approx_ctc_lpa": 40  },
-  { "name": "Supabase",           "type": "greenhouse", "slug": "supabase",                                                      "approx_ctc_lpa": 45  },
-  { "name": "Accenture",          "type": "html",       "url": "https://www.accenture.com/in-en/careers",                       "approx_ctc_lpa": 18  },
-  { "name": "Capgemini",          "type": "html",       "url": "https://www.capgemini.com/in-en/careers/",                      "approx_ctc_lpa": 18  },
-  { "name": "Deloitte",           "type": "html",       "url": "https://www2.deloitte.com/in/en/careers.html",                  "approx_ctc_lpa": 20  },
-  { "name": "McKinsey",           "type": "html",       "url": "https://www.mckinsey.com/careers",                              "approx_ctc_lpa": 35  },
-  { "name": "BCG",                "type": "html",       "url": "https://careers.bcg.com/",                                      "approx_ctc_lpa": 35  },
-  { "name": "Bain & Company",     "type": "html",       "url": "https://www.bain.com/careers/",                                 "approx_ctc_lpa": 35  },
-  { "name": "EY",                 "type": "html",       "url": "https://careers.ey.com/ey/jobs",                                "approx_ctc_lpa": 20  },
-  { "name": "PwC",                "type": "html",       "url": "https://www.pwc.in/careers.html",                               "approx_ctc_lpa": 20  },
-  { "name": "KPMG",               "type": "html",       "url": "https://kpmg.com/in/en/home/careers.html",                      "approx_ctc_lpa": 20  },
-  { "name": "ThoughtWorks",       "type": "html",       "url": "https://www.thoughtworks.com/en-in/careers",                    "approx_ctc_lpa": 22  },
-  { "name": "ARM",                "type": "html",       "url": "https://careers.arm.com/",                                      "approx_ctc_lpa": 40  },
-  { "name": "Cadence",            "type": "html",       "url": "https://www.cadence.com/en_US/home/company/careers.html",       "approx_ctc_lpa": 35  },
-  { "name": "Synopsys",           "type": "workday",    "url": "https://synopsys.wd1.myworkdayjobs.com/Synopsys_Careers",       "approx_ctc_lpa": 35  },
-  { "name": "Micron",             "type": "workday",    "url": "https://micron.wd1.myworkdayjobs.com/External",                 "approx_ctc_lpa": 30  },
-  { "name": "Western Digital",    "type": "html",       "url": "https://jobs.westerndigital.com/en/jobs",                       "approx_ctc_lpa": 30  },
-  { "name": "Samsung R&D",        "type": "workday",    "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers",             "approx_ctc_lpa": 30  },
-  { "name": "Unacademy",          "type": "html",       "url": "https://unacademy.com/careers",                                 "approx_ctc_lpa": 25  },
-  { "name": "Physics Wallah",     "type": "html",       "url": "https://www.pw.live/careers",                                   "approx_ctc_lpa": 20  },
-  { "name": "Tata 1mg",           "type": "html",       "url": "https://www.1mg.com/jobs",                                      "approx_ctc_lpa": 22  },
-  { "name": "Practo",             "type": "greenhouse", "slug": "practo",                                                        "approx_ctc_lpa": 22  },
-  { "name": "Cult.fit",           "type": "html",       "url": "https://careers.cult.fit",                                      "approx_ctc_lpa": 27  },
-  { "name": "Anthropic",          "type": "greenhouse", "slug": "anthropic",                                                     "approx_ctc_lpa": 100 },
-  { "name": "OpenAI",             "type": "greenhouse", "slug": "openai",                                                        "approx_ctc_lpa": 100 },
-  { "name": "Cohere",             "type": "greenhouse", "slug": "cohere",                                                        "approx_ctc_lpa": 60  },
-  { "name": "Hugging Face",       "type": "greenhouse", "slug": "huggingface",                                                   "approx_ctc_lpa": 60  },
-  { "name": "Scale AI",           "type": "greenhouse", "slug": "scaleai",                                                       "approx_ctc_lpa": 60  },
-  { "name": "Weights & Biases",   "type": "greenhouse", "slug": "wandb",                                                         "approx_ctc_lpa": 50  },
-  { "name": "Delhivery",          "type": "html",       "url": "https://www.delhivery.com/careers",                             "approx_ctc_lpa": 22  },
-  { "name": "Dream11",            "type": "html",       "url": "https://www.dream11.com/careers",                               "approx_ctc_lpa": 35  },
-  { "name": "MPL",                "type": "html",       "url": "https://www.mpl.live/careers",                                  "approx_ctc_lpa": 28  },
-  { "name": "Zoho",               "type": "html",       "url": "https://careers.zohocorp.com/jobs/Careers",                     "approx_ctc_lpa": 18  },
-  { "name": "Clevertap",          "type": "greenhouse", "slug": "clevertap",                                                     "approx_ctc_lpa": 25  },
-  { "name": "Darwinbox",          "type": "html",       "url": "https://darwinbox.com/careers",                                 "approx_ctc_lpa": 25  },
-  { "name": "Zendesk",            "type": "greenhouse", "slug": "zendesk",                                                       "approx_ctc_lpa": 30  },
-  { "name": "Sprinklr",           "type": "greenhouse", "slug": "sprinklr",                                                      "approx_ctc_lpa": 30  },
-  { "name": "Innovaccer",         "type": "greenhouse", "slug": "innovaccer",                                                    "approx_ctc_lpa": 28  },
-  { "name": "HotStar",            "type": "html",       "url": "https://careers.hotstar.com/",                                  "approx_ctc_lpa": 30  },
-  { "name": "Intuit",             "type": "html",       "url": "https://careers.intuit.com/",                                   "approx_ctc_lpa": 35  },
-  { "name": "PayPal",             "type": "html",       "url": "https://paypal.eightfold.ai/careers",                           "approx_ctc_lpa": 35  },
-  { "name": "Visa",               "type": "workday",    "url": "https://corporate.visa.com/en/jobs/",                           "approx_ctc_lpa": 35  },
-  { "name": "Mastercard",         "type": "workday",    "url": "https://careers.mastercard.com/us/en/",                         "approx_ctc_lpa": 35  },
-  { "name": "American Express",   "type": "html",       "url": "https://aexp.eightfold.ai/careers",                             "approx_ctc_lpa": 30  },
-  { "name": "Expedia",            "type": "workday",    "url": "https://careers.expediagroup.com/jobs",                         "approx_ctc_lpa": 35  },
-  { "name": "Booking.com",        "type": "greenhouse", "slug": "bookingcom",                                                    "approx_ctc_lpa": 40  },
-  { "name": "Agoda",              "type": "greenhouse", "slug": "agoda",                                                         "approx_ctc_lpa": 35  },
-  { "name": "Walmart Global Tech","type": "html",       "url": "https://careers.walmart.com/",                                  "approx_ctc_lpa": 45  },
-  { "name": "Target India",       "type": "html",       "url": "https://india.target.com/careers",                              "approx_ctc_lpa": 35  },
-  { "name": "Palo Alto Networks", "type": "workday",    "url": "https://jobs.paloaltonetworks.com/en/jobs/",                    "approx_ctc_lpa": 50  },
-  { "name": "CrowdStrike",        "type": "workday",    "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers",  "approx_ctc_lpa": 50  },
-  { "name": "Zscaler",            "type": "greenhouse", "slug": "zscaler",                                                       "approx_ctc_lpa": 40  },
-  { "name": "Okta",               "type": "greenhouse", "slug": "okta",                                                          "approx_ctc_lpa": 45  },
-  { "name": "Nutanix",            "type": "greenhouse", "slug": "nutanix",                                                       "approx_ctc_lpa": 40  },
-  { "name": "Pure Storage",       "type": "greenhouse", "slug": "purestorage",                                                   "approx_ctc_lpa": 40  },
-  { "name": "Cohesity",           "type": "greenhouse", "slug": "cohesity",                                                      "approx_ctc_lpa": 35  },
-  { "name": "EPAM Systems",       "type": "html",       "url": "https://www.epam.com/careers",                                  "approx_ctc_lpa": 25  },
-  { "name": "GlobalLogic",        "type": "html",       "url": "https://www.globallogic.com/careers/",                          "approx_ctc_lpa": 22  },
-  { "name": "Persistent Systems", "type": "html",       "url": "https://careers.persistent.com/",                              "approx_ctc_lpa": 20  },
-  { "name": "Mphasis",            "type": "html",       "url": "https://careers.mphasis.com/home.html",                        "approx_ctc_lpa": 20  },
-  { "name": "Lam Research",       "type": "workday",    "url": "https://careers.lamresearch.com/",                              "approx_ctc_lpa": 35  },
-  { "name": "Applied Materials",  "type": "workday",    "url": "https://careers.appliedmaterials.com/",                        "approx_ctc_lpa": 35  },
-  { "name": "Societe Generale",   "type": "html",       "url": "https://careers.societegenerale.com/",                         "approx_ctc_lpa": 28  },
-  { "name": "BNY Mellon",         "type": "workday",    "url": "https://jobs.bnymellon.com/",                                   "approx_ctc_lpa": 28  },
-  { "name": "State Street",       "type": "workday",    "url": "https://statestreet.wd1.myworkdayjobs.com/Global",              "approx_ctc_lpa": 28  },
-  { "name": "Fidelity",           "type": "html",       "url": "https://jobs.fidelity.com/",                                    "approx_ctc_lpa": 30  },
-  { "name": "Optum UHG",          "type": "workday",    "url": "https://careers.unitedhealthgroup.com/",                        "approx_ctc_lpa": 28  },
-  { "name": "Philips",            "type": "workday",    "url": "https://careers.philips.com/",                                  "approx_ctc_lpa": 25  },
-  { "name": "Siemens",            "type": "workday",    "url": "https://jobs.siemens.com/careers",                              "approx_ctc_lpa": 25  },
-  { "name": "Bosch India",        "type": "workday",    "url": "https://www.bosch.com/careers/",                               "approx_ctc_lpa": 20  },
-  { "name": "Honeywell",          "type": "workday",    "url": "https://careers.honeywell.com/",                               "approx_ctc_lpa": 25  },
-  { "name": "GE Digital",         "type": "workday",    "url": "https://jobs.gecareers.com/global/en",                          "approx_ctc_lpa": 28  },
-  { "name": "ThoughtSpot",        "type": "greenhouse", "slug": "thoughtspot",                                                   "approx_ctc_lpa": 35  },
-  { "name": "Dremio",             "type": "greenhouse", "slug": "dremio",                                                        "approx_ctc_lpa": 35  },
-  { "name": "Cockroach Labs",     "type": "greenhouse", "slug": "cockroachlabs",                                                 "approx_ctc_lpa": 45  },
-  { "name": "Vercel",             "type": "greenhouse", "slug": "vercel",                                                        "approx_ctc_lpa": 45  },
-  { "name": "Miro",               "type": "greenhouse", "slug": "miro",                                                          "approx_ctc_lpa": 40  },
-  { "name": "Mixpanel",           "type": "greenhouse", "slug": "mixpanel",                                                      "approx_ctc_lpa": 35  },
-  { "name": "Druva",              "type": "greenhouse", "slug": "druva",                                                         "approx_ctc_lpa": 30  },
-  { "name": "Icertis",            "type": "greenhouse", "slug": "icertis",                                                       "approx_ctc_lpa": 28  },
-  { "name": "Mindtickle",         "type": "greenhouse", "slug": "mindtickle",                                                    "approx_ctc_lpa": 28  },
-  { "name": "Whatfix",            "type": "greenhouse", "slug": "whatfix",                                                       "approx_ctc_lpa": 25  },
-  { "name": "ShareChat",          "type": "greenhouse", "slug": "sharechat",                                                     "approx_ctc_lpa": 30  },
-  { "name": "Lenskart",           "type": "greenhouse", "slug": "lenskart",                                                      "approx_ctc_lpa": 25  },
-  { "name": "Rapido",             "type": "html",       "url": "https://rapido.bike/careers/",                                  "approx_ctc_lpa": 25  },
-  { "name": "Porter",             "type": "html",       "url": "https://porter.in/careers",                                     "approx_ctc_lpa": 22  },
-  { "name": "NoBroker",           "type": "html",       "url": "https://www.nobroker.in/careers",                               "approx_ctc_lpa": 20  },
-  { "name": "Amdocs",             "type": "html",       "url": "https://careers.amdocs.com/",                                   "approx_ctc_lpa": 22  },
-  { "name": "Trimble",            "type": "greenhouse", "slug": "trimble",                                                       "approx_ctc_lpa": 25  },
-  { "name": "SingleStore",        "type": "greenhouse", "slug": "singlestore",                                                   "approx_ctc_lpa": 35  },
-  { "name": "Uniphore",           "type": "greenhouse", "slug": "uniphore",                                                      "approx_ctc_lpa": 25  },
-  { "name": "Khatabook",          "type": "greenhouse", "slug": "khatabook",                                                     "approx_ctc_lpa": 25  },
-  { "name": "Slice",              "type": "greenhouse", "slug": "slice",                                                         "approx_ctc_lpa": 25  },
-  { "name": "Open Financial",     "type": "greenhouse", "slug": "open",                                                          "approx_ctc_lpa": 28  },
-  { "name": "ClearTax",           "type": "html",       "url": "https://cleartax.in/careers",                                   "approx_ctc_lpa": 24  },
-  { "name": "Niyo",               "type": "html",       "url": "https://www.goniyo.com/careers",                               "approx_ctc_lpa": 25  },
-  { "name": "Vedantu",            "type": "html",       "url": "https://www.vedantu.com/careers",                               "approx_ctc_lpa": 22  },
-  { "name": "Junglee Games",      "type": "greenhouse", "slug": "jungleegames",                                                  "approx_ctc_lpa": 22  },
-  { "name": "Dailyhunt",          "type": "html",       "url": "https://www.dailyhunt.in/careers",                              "approx_ctc_lpa": 20  },
-  { "name": "Nazara Games",       "type": "html",       "url": "https://www.nazara.com/career",                                 "approx_ctc_lpa": 20  },
-  { "name": "Analytics Vidhya",   "type": "html",       "url": "https://www.analyticsvidhya.com/careers/",                     "approx_ctc_lpa": 20  },
-  { "name": "Commvault",          "type": "greenhouse", "slug": "commvault",                                                     "approx_ctc_lpa": 30  },
-  { "name": "Nagarro",            "type": "html",       "url": "https://www.nagarro.com/en/careers",                            "approx_ctc_lpa": 20  },
-  { "name": "Healthifyme",        "type": "html",       "url": "https://www.healthifyme.com/careers",                           "approx_ctc_lpa": 20  },
-  { "name": "Charles Schwab",     "type": "html",       "url": "https://www.schwabjobs.com/",                                   "approx_ctc_lpa": 30  },
-  { "name": "Cyient",             "type": "html",       "url": "https://www.cyient.com/careers/",                               "approx_ctc_lpa": 18  },
-  { "name": "WebEngage",          "type": "html",       "url": "https://webengage.com/company/careers/",                       "approx_ctc_lpa": 22  },
-  { "name": "Capillary Tech",     "type": "html",       "url": "https://www.capillarytech.com/careers/",                       "approx_ctc_lpa": 20  },
-  { "name": "ABB",                "type": "workday",    "url": "https://careers.abb/global/en",                                 "approx_ctc_lpa": 22  }
+  {
+    "name": "Google",
+    "type": "html",
+    "url": "https://careers.google.com/jobs/results/",
+    "approx_ctc_lpa": 80
+  },
+  {
+    "name": "Microsoft",
+    "type": "html",
+    "url": "https://jobs.microsoft.com/en/search",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Amazon",
+    "type": "html",
+    "url": "https://www.amazon.jobs/en/search",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Meta",
+    "type": "html",
+    "url": "https://www.metacareers.com/jobs",
+    "approx_ctc_lpa": 80
+  },
+  {
+    "name": "Apple",
+    "type": "html",
+    "url": "https://jobs.apple.com/en-us/search",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Netflix",
+    "type": "html",
+    "approx_ctc_lpa": 80,
+    "url": "https://jobs.netflix.com/search"
+  },
+  {
+    "name": "Uber",
+    "type": "html",
+    "approx_ctc_lpa": 45,
+    "url": "https://www.uber.com/global/en/careers/list/"
+  },
+  {
+    "name": "LinkedIn",
+    "type": "html",
+    "url": "https://careers.linkedin.com/",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Twitter / X",
+    "type": "html",
+    "url": "https://careers.x.com/en/jobs",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Nvidia",
+    "type": "workday",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite",
+    "approx_ctc_lpa": 70
+  },
+  {
+    "name": "Intel",
+    "type": "html",
+    "url": "https://jobs.intel.com/en",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Qualcomm",
+    "type": "html",
+    "url": "https://careers.qualcomm.com/careers",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Oracle",
+    "type": "html",
+    "url": "https://careers.oracle.com/jobs",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Cisco",
+    "type": "html",
+    "url": "https://jobs.cisco.com",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Texas Instruments",
+    "type": "html",
+    "url": "https://careers.ti.com/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "IBM",
+    "type": "html",
+    "url": "https://www.ibm.com/careers/search",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "SAP",
+    "type": "html",
+    "url": "https://jobs.sap.com/search/",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "Salesforce",
+    "type": "workday",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Adobe",
+    "type": "workday",
+    "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "ServiceNow",
+    "type": "html",
+    "url": "https://careers.servicenow.com/careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Stripe",
+    "type": "greenhouse",
+    "slug": "stripe",
+    "approx_ctc_lpa": 80
+  },
+  {
+    "name": "Figma",
+    "type": "greenhouse",
+    "slug": "figma",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Notion",
+    "type": "greenhouse",
+    "slug": "notion",
+    "approx_ctc_lpa": 55
+  },
+  {
+    "name": "Canva",
+    "type": "greenhouse",
+    "slug": "canva",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "MongoDB",
+    "type": "greenhouse",
+    "slug": "mongodb",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Twilio",
+    "type": "greenhouse",
+    "slug": "twilio",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Confluent",
+    "type": "greenhouse",
+    "slug": "confluent",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Databricks",
+    "type": "greenhouse",
+    "slug": "databricks",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Cloudflare",
+    "type": "greenhouse",
+    "slug": "cloudflare",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "GitLab",
+    "type": "greenhouse",
+    "slug": "gitlab",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Grafana Labs",
+    "type": "greenhouse",
+    "slug": "grafana",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Rubrik",
+    "type": "greenhouse",
+    "slug": "rubrik",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Freshworks",
+    "type": "greenhouse",
+    "slug": "freshworks",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Meesho",
+    "type": "greenhouse",
+    "slug": "meesho",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Browserstack",
+    "type": "greenhouse",
+    "slug": "browserstack",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Postman",
+    "type": "greenhouse",
+    "slug": "postman",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Chargebee",
+    "type": "greenhouse",
+    "slug": "chargebee",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "Sentry",
+    "type": "greenhouse",
+    "slug": "sentry",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Hasura",
+    "type": "greenhouse",
+    "slug": "hasura",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Groww",
+    "type": "greenhouse",
+    "slug": "groww",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Jupiter",
+    "type": "greenhouse",
+    "slug": "jupiter",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "Zepto",
+    "type": "greenhouse",
+    "slug": "zepto",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Navi",
+    "type": "greenhouse",
+    "slug": "navi",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Smallcase",
+    "type": "greenhouse",
+    "slug": "smallcase",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "Cashfree",
+    "type": "greenhouse",
+    "slug": "cashfree",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "CRED",
+    "type": "lever",
+    "slug": "cred",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Razorpay",
+    "type": "lever",
+    "slug": "razorpay",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Spotify",
+    "type": "lever",
+    "slug": "spotify",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Shopify",
+    "type": "lever",
+    "slug": "shopify",
+    "approx_ctc_lpa": 55
+  },
+  {
+    "name": "Atlassian",
+    "type": "lever",
+    "slug": "atlassian",
+    "approx_ctc_lpa": 55
+  },
+  {
+    "name": "Airbnb",
+    "type": "greenhouse",
+    "slug": "airbnb",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Dropbox",
+    "type": "greenhouse",
+    "slug": "dropbox",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Ola",
+    "type": "html",
+    "url": "https://ola.hire.trakstar.com/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Urban Company",
+    "type": "lever",
+    "slug": "urban-company",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Flipkart",
+    "type": "html",
+    "url": "https://www.flipkartcareers.com/#!/joblist",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Zomato",
+    "type": "html",
+    "url": "https://www.zomato.com/careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Swiggy",
+    "type": "html",
+    "url": "https://careers.swiggy.com/#/careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Myntra",
+    "type": "html",
+    "url": "https://careers.myntra.com/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Nykaa",
+    "type": "html",
+    "url": "https://nykaa.darwinbox.in/ms/candidate/careers",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "BigBasket",
+    "type": "html",
+    "url": "https://www.bigbasket.com/careers/",
+    "approx_ctc_lpa": 23
+  },
+  {
+    "name": "BookMyShow",
+    "type": "html",
+    "url": "https://in.bookmyshow.com/careers/job-listing",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "MakeMyTrip",
+    "type": "html",
+    "url": "https://careers.makemytrip.com/",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "PolicyBazaar",
+    "type": "html",
+    "url": "https://www.policybazaar.com/about-us/careers/",
+    "approx_ctc_lpa": 22
+  },
+  {
+    "name": "Cars24",
+    "type": "html",
+    "url": "https://www.cars24.com/careers/",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Paytm",
+    "type": "html",
+    "url": "https://paytm.com/about-us/careers/",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "PhonePe",
+    "type": "html",
+    "url": "https://www.phonepe.com/en/careers.html",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Zerodha",
+    "type": "html",
+    "url": "https://zerodha.com/careers/",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Angel One",
+    "type": "html",
+    "url": "https://www.angelone.in/careers",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "CoinDCX",
+    "type": "html",
+    "url": "https://coindcx.com/careers/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "CoinSwitch",
+    "type": "html",
+    "url": "https://coinswitch.co/careers",
+    "approx_ctc_lpa": 36
+  },
+  {
+    "name": "BharatPe",
+    "type": "html",
+    "url": "https://bharatpe.com/careers",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "Fi Money",
+    "type": "html",
+    "url": "https://fi.money/careers",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Goldman Sachs",
+    "type": "html",
+    "url": "https://www.goldmansachs.com/careers/",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "JP Morgan",
+    "type": "html",
+    "url": "https://careers.jpmorgan.com/us/en/home",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Morgan Stanley",
+    "type": "html",
+    "url": "https://www.morganstanley.com/careers/",
+    "approx_ctc_lpa": 38
+  },
+  {
+    "name": "Deutsche Bank",
+    "type": "html",
+    "url": "https://careers.db.com/india/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "BlackRock",
+    "type": "html",
+    "url": "https://careers.blackrock.com/students-and-graduates-apac",
+    "approx_ctc_lpa": 36
+  },
+  {
+    "name": "Bloomberg",
+    "type": "html",
+    "url": "https://www.bloomberg.com/company/careers/",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Axis Bank",
+    "type": "html",
+    "url": "https://www.axisbank.com/careers/campus-careers",
+    "approx_ctc_lpa": 21
+  },
+  {
+    "name": "HDFC Bank",
+    "type": "html",
+    "url": "https://www.hdfcbank.com/careers",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "ICICI Bank",
+    "type": "html",
+    "url": "https://www.icicibankjobs.com/",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "Kotak Mahindra",
+    "type": "html",
+    "url": "https://careers.kotak.com/",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "Snowflake",
+    "type": "workday",
+    "url": "https://careers.snowflake.com/us/en",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "HashiCorp",
+    "type": "greenhouse",
+    "slug": "hashicorp",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Elastic",
+    "type": "greenhouse",
+    "slug": "elastic",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Datadog",
+    "type": "greenhouse",
+    "slug": "datadog",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "New Relic",
+    "type": "greenhouse",
+    "slug": "newrelic",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "PagerDuty",
+    "type": "greenhouse",
+    "slug": "pagerduty",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Harness",
+    "type": "greenhouse",
+    "slug": "harness",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Supabase",
+    "type": "greenhouse",
+    "slug": "supabase",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Accenture",
+    "type": "html",
+    "url": "https://www.accenture.com/in-en/careers",
+    "approx_ctc_lpa": 18
+  },
+  {
+    "name": "Capgemini",
+    "type": "html",
+    "url": "https://www.capgemini.com/in-en/careers/",
+    "approx_ctc_lpa": 18
+  },
+  {
+    "name": "Deloitte",
+    "type": "html",
+    "url": "https://www2.deloitte.com/in/en/careers.html",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "McKinsey",
+    "type": "html",
+    "url": "https://www.mckinsey.com/careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "BCG",
+    "type": "html",
+    "url": "https://careers.bcg.com/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Bain & Company",
+    "type": "html",
+    "url": "https://www.bain.com/careers/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "EY",
+    "type": "html",
+    "url": "https://careers.ey.com/ey/jobs",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "PwC",
+    "type": "html",
+    "url": "https://www.pwc.in/careers.html",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "KPMG",
+    "type": "html",
+    "url": "https://kpmg.com/in/en/home/careers.html",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "ThoughtWorks",
+    "type": "html",
+    "url": "https://www.thoughtworks.com/en-in/careers",
+    "approx_ctc_lpa": 22
+  },
+  {
+    "name": "ARM",
+    "type": "html",
+    "url": "https://careers.arm.com/",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Cadence",
+    "type": "html",
+    "url": "https://www.cadence.com/en_US/home/company/careers.html",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Synopsys",
+    "type": "workday",
+    "url": "https://synopsys.wd1.myworkdayjobs.com/Synopsys_Careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Micron",
+    "type": "workday",
+    "url": "https://micron.wd1.myworkdayjobs.com/External",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Western Digital",
+    "type": "html",
+    "url": "https://jobs.westerndigital.com/en/jobs",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Samsung R&D",
+    "type": "workday",
+    "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Unacademy",
+    "type": "html",
+    "url": "https://unacademy.com/careers",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Physics Wallah",
+    "type": "html",
+    "url": "https://www.pw.live/careers",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "Tata 1mg",
+    "type": "html",
+    "url": "https://www.1mg.com/jobs",
+    "approx_ctc_lpa": 22
+  },
+  {
+    "name": "Practo",
+    "type": "greenhouse",
+    "slug": "practo",
+    "approx_ctc_lpa": 22
+  },
+  {
+    "name": "Cult.fit",
+    "type": "html",
+    "url": "https://careers.cult.fit",
+    "approx_ctc_lpa": 27
+  },
+  {
+    "name": "Anthropic",
+    "type": "greenhouse",
+    "slug": "anthropic",
+    "approx_ctc_lpa": 100
+  },
+  {
+    "name": "OpenAI",
+    "type": "greenhouse",
+    "slug": "openai",
+    "approx_ctc_lpa": 100
+  },
+  {
+    "name": "Cohere",
+    "type": "greenhouse",
+    "slug": "cohere",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Hugging Face",
+    "type": "greenhouse",
+    "slug": "huggingface",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Scale AI",
+    "type": "greenhouse",
+    "slug": "scaleai",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Weights & Biases",
+    "type": "greenhouse",
+    "slug": "wandb",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Delhivery",
+    "type": "html",
+    "url": "https://www.delhivery.com/careers",
+    "approx_ctc_lpa": 22
+  },
+  {
+    "name": "Dream11",
+    "type": "html",
+    "url": "https://www.dream11.com/careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "MPL",
+    "type": "html",
+    "url": "https://www.mpl.live/careers",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "Zoho",
+    "type": "html",
+    "url": "https://careers.zohocorp.com/jobs/Careers",
+    "approx_ctc_lpa": 18
+  },
+  {
+    "name": "Clevertap",
+    "type": "greenhouse",
+    "slug": "clevertap",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Darwinbox",
+    "type": "html",
+    "url": "https://darwinbox.com/careers",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Zendesk",
+    "type": "greenhouse",
+    "slug": "zendesk",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Sprinklr",
+    "type": "greenhouse",
+    "slug": "sprinklr",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Innovaccer",
+    "type": "greenhouse",
+    "slug": "innovaccer",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "HotStar",
+    "type": "html",
+    "url": "https://careers.hotstar.com/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Intuit",
+    "type": "html",
+    "url": "https://careers.intuit.com/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "PayPal",
+    "type": "html",
+    "url": "https://paypal.eightfold.ai/careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Visa",
+    "type": "workday",
+    "url": "https://corporate.visa.com/en/jobs/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Mastercard",
+    "type": "workday",
+    "url": "https://careers.mastercard.com/us/en/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "American Express",
+    "type": "html",
+    "url": "https://aexp.eightfold.ai/careers",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Expedia",
+    "type": "workday",
+    "url": "https://careers.expediagroup.com/jobs",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Booking.com",
+    "type": "greenhouse",
+    "slug": "bookingcom",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Agoda",
+    "type": "greenhouse",
+    "slug": "agoda",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Walmart Global Tech",
+    "type": "html",
+    "url": "https://careers.walmart.com/",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Target India",
+    "type": "html",
+    "url": "https://india.target.com/careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Palo Alto Networks",
+    "type": "workday",
+    "url": "https://jobs.paloaltonetworks.com/en/jobs/",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "CrowdStrike",
+    "type": "workday",
+    "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Zscaler",
+    "type": "greenhouse",
+    "slug": "zscaler",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Okta",
+    "type": "greenhouse",
+    "slug": "okta",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Nutanix",
+    "type": "greenhouse",
+    "slug": "nutanix",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Pure Storage",
+    "type": "greenhouse",
+    "slug": "purestorage",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Cohesity",
+    "type": "greenhouse",
+    "slug": "cohesity",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "EPAM Systems",
+    "type": "html",
+    "url": "https://www.epam.com/careers",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "GlobalLogic",
+    "type": "html",
+    "url": "https://www.globallogic.com/careers/",
+    "approx_ctc_lpa": 22
+  },
+  {
+    "name": "Persistent Systems",
+    "type": "html",
+    "url": "https://careers.persistent.com/",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "Mphasis",
+    "type": "html",
+    "url": "https://careers.mphasis.com/home.html",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "Lam Research",
+    "type": "workday",
+    "url": "https://careers.lamresearch.com/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Applied Materials",
+    "type": "workday",
+    "url": "https://careers.appliedmaterials.com/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Societe Generale",
+    "type": "html",
+    "url": "https://careers.societegenerale.com/",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "BNY Mellon",
+    "type": "workday",
+    "url": "https://jobs.bnymellon.com/",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "State Street",
+    "type": "workday",
+    "url": "https://statestreet.wd1.myworkdayjobs.com/Global",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "Fidelity",
+    "type": "html",
+    "url": "https://jobs.fidelity.com/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Optum UHG",
+    "type": "workday",
+    "url": "https://careers.unitedhealthgroup.com/",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "Philips",
+    "type": "workday",
+    "url": "https://careers.philips.com/",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Siemens",
+    "type": "workday",
+    "url": "https://jobs.siemens.com/careers",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Bosch India",
+    "type": "workday",
+    "url": "https://www.bosch.com/careers/",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "Honeywell",
+    "type": "workday",
+    "url": "https://careers.honeywell.com/",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "GE Digital",
+    "type": "workday",
+    "url": "https://jobs.gecareers.com/global/en",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "ThoughtSpot",
+    "type": "greenhouse",
+    "slug": "thoughtspot",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Dremio",
+    "type": "greenhouse",
+    "slug": "dremio",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Cockroach Labs",
+    "type": "greenhouse",
+    "slug": "cockroachlabs",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Vercel",
+    "type": "greenhouse",
+    "slug": "vercel",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Miro",
+    "type": "greenhouse",
+    "slug": "miro",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Mixpanel",
+    "type": "greenhouse",
+    "slug": "mixpanel",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Druva",
+    "type": "greenhouse",
+    "slug": "druva",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Icertis",
+    "type": "greenhouse",
+    "slug": "icertis",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "Mindtickle",
+    "type": "greenhouse",
+    "slug": "mindtickle",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "Whatfix",
+    "type": "greenhouse",
+    "slug": "whatfix",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "ShareChat",
+    "type": "greenhouse",
+    "slug": "sharechat",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Lenskart",
+    "type": "greenhouse",
+    "slug": "lenskart",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Rapido",
+    "type": "html",
+    "url": "https://rapido.bike/careers/",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Porter",
+    "type": "html",
+    "url": "https://porter.in/careers",
+    "approx_ctc_lpa": 22
+  },
+  {
+    "name": "NoBroker",
+    "type": "html",
+    "url": "https://www.nobroker.in/careers",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "Amdocs",
+    "type": "html",
+    "url": "https://careers.amdocs.com/",
+    "approx_ctc_lpa": 22
+  },
+  {
+    "name": "Trimble",
+    "type": "greenhouse",
+    "slug": "trimble",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "SingleStore",
+    "type": "greenhouse",
+    "slug": "singlestore",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Uniphore",
+    "type": "greenhouse",
+    "slug": "uniphore",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Khatabook",
+    "type": "greenhouse",
+    "slug": "khatabook",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Slice",
+    "type": "greenhouse",
+    "slug": "slice",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Open Financial",
+    "type": "greenhouse",
+    "slug": "open",
+    "approx_ctc_lpa": 28
+  },
+  {
+    "name": "ClearTax",
+    "type": "html",
+    "url": "https://cleartax.in/careers",
+    "approx_ctc_lpa": 24
+  },
+  {
+    "name": "Niyo",
+    "type": "html",
+    "url": "https://www.goniyo.com/careers",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Vedantu",
+    "type": "html",
+    "url": "https://www.vedantu.com/careers",
+    "approx_ctc_lpa": 22
+  },
+  {
+    "name": "Junglee Games",
+    "type": "greenhouse",
+    "slug": "jungleegames",
+    "approx_ctc_lpa": 22
+  },
+  {
+    "name": "Dailyhunt",
+    "type": "html",
+    "url": "https://www.dailyhunt.in/careers",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "Nazara Games",
+    "type": "html",
+    "url": "https://www.nazara.com/career",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "Analytics Vidhya",
+    "type": "html",
+    "url": "https://www.analyticsvidhya.com/careers/",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "Commvault",
+    "type": "greenhouse",
+    "slug": "commvault",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Nagarro",
+    "type": "html",
+    "url": "https://www.nagarro.com/en/careers",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "Healthifyme",
+    "type": "html",
+    "url": "https://www.healthifyme.com/careers",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "Charles Schwab",
+    "type": "html",
+    "url": "https://www.schwabjobs.com/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Cyient",
+    "type": "html",
+    "url": "https://www.cyient.com/careers/",
+    "approx_ctc_lpa": 18
+  },
+  {
+    "name": "WebEngage",
+    "type": "html",
+    "url": "https://webengage.com/company/careers/",
+    "approx_ctc_lpa": 22
+  },
+  {
+    "name": "Capillary Tech",
+    "type": "html",
+    "url": "https://www.capillarytech.com/careers/",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "ABB",
+    "type": "workday",
+    "url": "https://careers.abb/global/en",
+    "approx_ctc_lpa": 22
+  },
+  {
+    "name": "D. E. Shaw",
+    "type": "html",
+    "url": "https://www.deshawindia.com/careers",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Tower Research",
+    "type": "html",
+    "url": "https://www.tower-research.com/open-positions",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Arcesium",
+    "type": "html",
+    "url": "https://arcesium.com/careers/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Rippling",
+    "type": "greenhouse",
+    "slug": "rippling",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Glean",
+    "type": "greenhouse",
+    "slug": "glean",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Plaid",
+    "type": "greenhouse",
+    "slug": "plaid",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Reddit",
+    "type": "greenhouse",
+    "slug": "reddit",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Pinterest",
+    "type": "workday",
+    "url": "https://pinterest.wd1.myworkdayjobs.com/Pinterest_Careers",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Robinhood",
+    "type": "greenhouse",
+    "slug": "robinhood",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Palantir",
+    "type": "lever",
+    "slug": "palantir",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Splunk",
+    "type": "html",
+    "url": "https://www.splunk.com/en_us/careers.html",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Zeta",
+    "type": "html",
+    "url": "https://www.zeta.tech/in/careers/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Gojek",
+    "type": "lever",
+    "slug": "gojek",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Grab",
+    "type": "html",
+    "url": "https://grab.careers/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Discord",
+    "type": "lever",
+    "slug": "discord",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "ByteDance",
+    "type": "html",
+    "url": "https://careers.bytedance.com/",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Coinbase",
+    "type": "greenhouse",
+    "slug": "coinbase",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Kraken",
+    "type": "greenhouse",
+    "slug": "kraken",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Juspay",
+    "type": "html",
+    "url": "https://juspay.in/careers",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "InMobi",
+    "type": "greenhouse",
+    "slug": "inmobi",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Headout",
+    "type": "greenhouse",
+    "slug": "headout",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "Lyft",
+    "type": "greenhouse",
+    "slug": "lyft",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "DoorDash",
+    "type": "greenhouse",
+    "slug": "doordash",
+    "approx_ctc_lpa": 55
+  },
+  {
+    "name": "Instacart",
+    "type": "greenhouse",
+    "slug": "instacart",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Affirm",
+    "type": "greenhouse",
+    "slug": "affirm",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Klarna",
+    "type": "html",
+    "url": "https://www.klarna.com/careers",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Revolut",
+    "type": "html",
+    "url": "https://www.revolut.com/careers",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Block (Square)",
+    "type": "html",
+    "url": "https://block.xyz/careers",
+    "approx_ctc_lpa": 55
+  },
+  {
+    "name": "Wise",
+    "type": "html",
+    "url": "https://wise.jobs/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "NuBank",
+    "type": "greenhouse",
+    "slug": "nubank",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Chime",
+    "type": "greenhouse",
+    "slug": "chime",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Monzo",
+    "type": "html",
+    "url": "https://monzo.com/careers/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Brex",
+    "type": "greenhouse",
+    "slug": "brex",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Ramp",
+    "type": "greenhouse",
+    "slug": "ramp",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Asana",
+    "type": "greenhouse",
+    "slug": "asana",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Monday.com",
+    "type": "html",
+    "url": "https://monday.com/careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Smartsheet",
+    "type": "html",
+    "url": "https://www.smartsheet.com/careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Airtable",
+    "type": "greenhouse",
+    "slug": "airtable",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Delivery Hero",
+    "type": "html",
+    "url": "https://careers.deliveryhero.com/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Glovo",
+    "type": "greenhouse",
+    "slug": "glovo",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Deliveroo",
+    "type": "greenhouse",
+    "slug": "deliveroo",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Rappi",
+    "type": "greenhouse",
+    "slug": "rappi",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Zalando",
+    "type": "html",
+    "url": "https://jobs.zalando.com/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Shopee",
+    "type": "html",
+    "url": "https://careers.shopee.com/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Mercado Libre",
+    "type": "html",
+    "url": "https://careers-us.mercadolibre.com/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Wayfair",
+    "type": "greenhouse",
+    "slug": "wayfair",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Chewy",
+    "type": "html",
+    "url": "https://careers.chewy.com/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Duolingo",
+    "type": "greenhouse",
+    "slug": "duolingo",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Coursera",
+    "type": "greenhouse",
+    "slug": "coursera",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Udemy",
+    "type": "greenhouse",
+    "slug": "udemy",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "MasterClass",
+    "type": "greenhouse",
+    "slug": "masterclass",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "UpGrad",
+    "type": "html",
+    "url": "https://www.upgrad.com/careers/",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "Eruditus",
+    "type": "html",
+    "url": "https://eruditus.com/careers",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "DiDi",
+    "type": "html",
+    "url": "https://web.didiglobal.com/careers/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Bolt",
+    "type": "greenhouse",
+    "slug": "bolt",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Lime",
+    "type": "greenhouse",
+    "slug": "lime",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Bird",
+    "type": "greenhouse",
+    "slug": "bird",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Turo",
+    "type": "greenhouse",
+    "slug": "turo",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Kayak",
+    "type": "html",
+    "url": "https://www.kayak.com/careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "C3.ai",
+    "type": "greenhouse",
+    "slug": "c3ai",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Dataminr",
+    "type": "greenhouse",
+    "slug": "dataminr",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Dataiku",
+    "type": "greenhouse",
+    "slug": "dataiku",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "DataStax",
+    "type": "greenhouse",
+    "slug": "datastax",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Ro",
+    "type": "greenhouse",
+    "slug": "ro",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Hims & Hers",
+    "type": "greenhouse",
+    "slug": "himsandhers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Oscar Health",
+    "type": "greenhouse",
+    "slug": "oscarhealth",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Teladoc",
+    "type": "html",
+    "url": "https://teladochealth.com/careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Babylon Health",
+    "type": "greenhouse",
+    "slug": "babylonhealth",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Pharmeasy",
+    "type": "html",
+    "url": "https://pharmeasy.in/careers",
+    "approx_ctc_lpa": 20
+  },
+  {
+    "name": "AMD",
+    "type": "workday",
+    "url": "https://careers.amd.com/",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Broadcom",
+    "type": "html",
+    "url": "https://jobs.broadcom.com/",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "TSMC",
+    "type": "html",
+    "url": "https://careers.tsmc.com/",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "ASML",
+    "type": "html",
+    "url": "https://www.asml.com/en/careers",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "MediaTek",
+    "type": "html",
+    "url": "https://careers.mediatek.com/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "NXP",
+    "type": "html",
+    "url": "https://careers.nxp.com/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Marvell",
+    "type": "html",
+    "url": "https://www.marvell.com/company/careers.html",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Seagate",
+    "type": "html",
+    "url": "https://www.seagate.com/jobs/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Fortinet",
+    "type": "html",
+    "url": "https://www.fortinet.com/corporate/careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "SentinelOne",
+    "type": "greenhouse",
+    "slug": "sentinelone",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "FireEye",
+    "type": "html",
+    "url": "https://www.trellix.com/en-us/about/careers.html",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Check Point",
+    "type": "html",
+    "url": "https://careers.checkpoint.com/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Auth0",
+    "type": "html",
+    "url": "https://auth0.com/careers",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "EA",
+    "type": "html",
+    "url": "https://ea.gr8people.com/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Activision Blizzard",
+    "type": "html",
+    "url": "https://careers.activisionblizzard.com/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Take-Two",
+    "type": "html",
+    "url": "https://www.take2games.com/careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Ubisoft",
+    "type": "html",
+    "url": "https://www.ubisoft.com/en-us/company/careers",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Nintendo",
+    "type": "html",
+    "url": "https://careers.nintendo.com/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Sony Interactive",
+    "type": "html",
+    "url": "https://playstation.com/en-us/corporate/playstation-careers/",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Epic Games",
+    "type": "workday",
+    "url": "https://epicgames.wd5.myworkdayjobs.com/Epic_Games",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Unity",
+    "type": "workday",
+    "url": "https://unity.wd1.myworkdayjobs.com/Unity_Careers",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Roblox",
+    "type": "greenhouse",
+    "slug": "roblox",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Zynga",
+    "type": "html",
+    "url": "https://www.zynga.com/careers",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "King",
+    "type": "html",
+    "url": "https://careers.king.com/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Snap",
+    "type": "workday",
+    "url": "https://snap.wd1.myworkdayjobs.com/Snap",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Tinder",
+    "type": "lever",
+    "slug": "tinder",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Bumble",
+    "type": "html",
+    "url": "https://bumble.com/careers",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Nextdoor",
+    "type": "greenhouse",
+    "slug": "nextdoor",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Dell",
+    "type": "html",
+    "url": "https://jobs.dell.com/",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "HP",
+    "type": "html",
+    "url": "https://jobs.hp.com/",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "HPE",
+    "type": "html",
+    "url": "https://careers.hpe.com/",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "VMware",
+    "type": "html",
+    "url": "https://careers.vmware.com/main/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "NetApp",
+    "type": "html",
+    "url": "https://careers.netapp.com/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Juniper",
+    "type": "html",
+    "url": "https://careers.juniper.net/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "SpaceX",
+    "type": "greenhouse",
+    "slug": "spacex",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Blue Origin",
+    "type": "workday",
+    "url": "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Anduril",
+    "type": "greenhouse",
+    "slug": "anduril",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Shield AI",
+    "type": "greenhouse",
+    "slug": "shieldai",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Lockheed Martin",
+    "type": "html",
+    "url": "https://www.lockheedmartinjobs.com/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Northrop Grumman",
+    "type": "html",
+    "url": "https://www.northropgrumman.com/careers/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Raytheon",
+    "type": "html",
+    "url": "https://careers.rtx.com/global/en",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Rivian",
+    "type": "greenhouse",
+    "slug": "rivian",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Lucid Motors",
+    "type": "greenhouse",
+    "slug": "lucidmotors",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Zoox",
+    "type": "greenhouse",
+    "slug": "zoox",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Cruise",
+    "type": "greenhouse",
+    "slug": "cruise",
+    "approx_ctc_lpa": 55
+  },
+  {
+    "name": "Waymo",
+    "type": "html",
+    "url": "https://waymo.com/joinus/",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Aurora",
+    "type": "greenhouse",
+    "slug": "aurora",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Nuro",
+    "type": "greenhouse",
+    "slug": "nuro",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "Pony.ai",
+    "type": "html",
+    "url": "https://pony.ai/jobs",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "N26",
+    "type": "greenhouse",
+    "slug": "n26",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Stash",
+    "type": "greenhouse",
+    "slug": "stash",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Wealthfront",
+    "type": "greenhouse",
+    "slug": "wealthfront",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Betterment",
+    "type": "greenhouse",
+    "slug": "betterment",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Grammarly",
+    "type": "greenhouse",
+    "slug": "grammarly",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "DuckDuckGo",
+    "type": "html",
+    "url": "https://duckduckgo.com/careers",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Mozilla",
+    "type": "greenhouse",
+    "slug": "mozilla",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Automattic",
+    "type": "greenhouse",
+    "slug": "automattic",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Vimeo",
+    "type": "greenhouse",
+    "slug": "vimeo",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Peloton",
+    "type": "greenhouse",
+    "slug": "peloton",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Whoop",
+    "type": "greenhouse",
+    "slug": "whoop",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Coupang",
+    "type": "greenhouse",
+    "slug": "coupang",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Flexport",
+    "type": "greenhouse",
+    "slug": "flexport",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Sequoia Capital",
+    "type": "html",
+    "url": "https://www.sequoiacap.com/jobs/",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "Y Combinator",
+    "type": "greenhouse",
+    "slug": "ycombinator",
+    "approx_ctc_lpa": 50
+  },
+  {
+    "name": "a16z",
+    "type": "html",
+    "url": "https://a16z.com/careers/",
+    "approx_ctc_lpa": 60
+  },
+  {
+    "name": "WSO2",
+    "type": "html",
+    "url": "https://wso2.com/careers/",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "GitHub",
+    "type": "greenhouse",
+    "slug": "github",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Bitbucket",
+    "type": "lever",
+    "slug": "atlassian",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Docker",
+    "type": "greenhouse",
+    "slug": "docker",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Snyk",
+    "type": "greenhouse",
+    "slug": "snyk",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "Sonatype",
+    "type": "greenhouse",
+    "slug": "sonatype",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Netlify",
+    "type": "greenhouse",
+    "slug": "netlify",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Gatsby",
+    "type": "greenhouse",
+    "slug": "gatsby",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Strapi",
+    "type": "greenhouse",
+    "slug": "strapi",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "DigitalOcean",
+    "type": "greenhouse",
+    "slug": "digitalocean",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Linode",
+    "type": "html",
+    "url": "https://www.linode.com/company/careers/",
+    "approx_ctc_lpa": 25
+  },
+  {
+    "name": "Heroku",
+    "type": "workday",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Fastly",
+    "type": "greenhouse",
+    "slug": "fastly",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Akamai",
+    "type": "html",
+    "url": "https://careers.akamai.com/",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Qualtrics",
+    "type": "html",
+    "url": "https://www.qualtrics.com/careers/",
+    "approx_ctc_lpa": 35
+  },
+  {
+    "name": "Medallia",
+    "type": "workday",
+    "url": "https://medallia.wd1.myworkdayjobs.com/medalliacareers",
+    "approx_ctc_lpa": 30
+  },
+  {
+    "name": "Slack",
+    "type": "workday",
+    "url": "https://slack.com/careers",
+    "approx_ctc_lpa": 45
+  },
+  {
+    "name": "MuleSoft",
+    "type": "workday",
+    "url": "https://careers.mulesoft.com/",
+    "approx_ctc_lpa": 40
+  },
+  {
+    "name": "Tableau",
+    "type": "workday",
+    "url": "https://www.tableau.com/about/careers",
+    "approx_ctc_lpa": 40
+  }
 ]

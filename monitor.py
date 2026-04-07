@@ -3,6 +3,7 @@ import json
 import hashlib
 import os
 import time
+import re
 from bs4 import BeautifulSoup
 from datetime import datetime
 
@@ -46,27 +47,59 @@ def send_telegram(message: str):
 
 # ─── GREENHOUSE API ────────────────────────────────────────
 def get_greenhouse_jobs(slug: str) -> set:
-    """Returns set of job titles from Greenhouse API - covers ALL pages."""
+    """Returns set of job strings (url|||title|||location) from Greenhouse API."""
     url  = f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true"
     try:
         r    = requests.get(url, headers=HEADERS, timeout=20)
         data = r.json()
-        jobs = data.get("jobs", [])
-        return {f"{j['title']} | {j.get('location', {}).get('name', '')}" for j in jobs}
+        
+        valid_jobs = set()
+        india_locs = {"india", "remote", "bengaluru", "bangalore", "hyderabad", "pune", "noida", "gurgaon", "chennai", "mumbai", "delhi"}
+        entry_kws = {"intern", "fresher", "grad", "entry", "associate", "university", "junior", "trainee", "apprentice"}
+        senior_kws = {"senior", "sr", "staff", "manager", "lead", "director", "vp", "head", "architect", "principal", "ii", "iii"}
+
+        for j in data.get("jobs", []):
+            loc = j.get("location", {}).get("name", "").lower()
+            title = j.get("title", "").lower()
+            if not any(k in loc for k in india_locs): continue
+            
+            is_entry = any(k in title for k in entry_kws)
+            is_senior = any(k in title for k in senior_kws)
+            if is_entry and not is_senior:
+                loc_clean = j.get('location', {}).get('name', 'India').replace('\n', ' ')
+                valid_jobs.add(f"{j.get('absolute_url', '')}|||{j.get('title', '')}|||{loc_clean}")
+                
+        return valid_jobs
     except Exception as e:
         print(f"  ❌ Greenhouse API error for {slug}: {e}")
         return set()
 
 # ─── LEVER API ────────────────────────────────────────────
 def get_lever_jobs(slug: str) -> set:
-    """Returns set of job titles from Lever API - covers ALL pages."""
+    """Returns set of job strings (url|||title|||location) from Lever API."""
     url = f"https://api.lever.co/v0/postings/{slug}?mode=json"
     try:
         r    = requests.get(url, headers=HEADERS, timeout=20)
         data = r.json()
-        if isinstance(data, list):
-            return {f"{j.get('text','')} | {j.get('categories', {}).get('location', '')}" for j in data}
-        return set()
+        if not isinstance(data, list): return set()
+
+        valid_jobs = set()
+        india_locs = {"india", "remote", "bengaluru", "bangalore", "hyderabad", "pune", "noida", "gurgaon", "chennai", "mumbai", "delhi"}
+        entry_kws = {"intern", "fresher", "grad", "entry", "associate", "university", "junior", "trainee", "apprentice"}
+        senior_kws = {"senior", "sr", "staff", "manager", "lead", "director", "vp", "head", "architect", "principal", "ii", "iii"}
+
+        for j in data:
+            loc = j.get("categories", {}).get("location", "").lower()
+            title = j.get("text", "").lower()
+            if not any(k in loc for k in india_locs): continue
+
+            is_entry = any(k in title for k in entry_kws)
+            is_senior = any(k in title for k in senior_kws)
+            if is_entry and not is_senior:
+                loc_clean = j.get('categories', {}).get('location', 'India').replace('\n', ' ')
+                valid_jobs.add(f"{j.get('hostedUrl', '')}|||{j.get('text', '')}|||{loc_clean}")
+                
+        return valid_jobs
     except Exception as e:
         print(f"  ❌ Lever API error for {slug}: {e}")
         return set()
@@ -91,7 +124,8 @@ def get_workday_jobs(url: str) -> set:
         except Exception as e:
             print(f"  ⚠️ Workday page error at offset {offset}: {e}")
     if all_text:
-        return {hashlib.md5(all_text.encode("utf-8", errors="replace")).hexdigest()}
+        stable_text = re.sub(r'\d+', '', all_text)
+        return {hashlib.md5(stable_text.encode("utf-8", errors="replace")).hexdigest()}
     return set()
 
 # ─── HTML SCRAPE WITH PAGINATION ─────────────────────────
@@ -138,20 +172,25 @@ def get_html_jobs(url: str, max_pages: int = 5) -> set:
                 continue
 
     if all_text:
-        return {hashlib.md5(all_text.encode("utf-8", errors="replace")).hexdigest()}
+        stable_text = re.sub(r'\d+', '', all_text)
+        return {hashlib.md5(stable_text.encode("utf-8", errors="replace")).hexdigest()}
     return set()
 
 # ─── DISPATCH ─────────────────────────────────────────────
 def get_jobs(company: dict) -> set:
     ctype = company.get("type", "html")
-    if ctype == "greenhouse":
-        return get_greenhouse_jobs(company["slug"])
-    elif ctype == "lever":
-        return get_lever_jobs(company["slug"])
-    elif ctype == "workday":
-        return get_workday_jobs(company["url"])
-    else:
-        return get_html_jobs(company["url"])
+    slug = company.get("slug")
+    url = company.get("url")
+
+    if ctype == "greenhouse" and slug:
+        return get_greenhouse_jobs(slug)
+    elif ctype == "lever" and slug:
+        return get_lever_jobs(slug)
+    elif ctype == "workday" and url:
+        return get_workday_jobs(url)
+    elif ctype == "html" and url:
+        return get_html_jobs(url)
+    return set()
 
 # ─── SNAPSHOTS ────────────────────────────────────────────
 def load_snapshots() -> dict:
@@ -183,7 +222,12 @@ def main():
         url   = company.get("url") or f"https://boards-api.greenhouse.io/v1/boards/{company.get('slug')}/jobs"
         print(f"  [{i}/{len(companies)}] {name} ({ctype})")
 
-        current = get_jobs(company)
+        try:
+            current = get_jobs(company)
+        except Exception as e:
+            log(f"  ❌ Fatal error processing {name}: {e}")
+            errors.append(name)
+            continue
 
         if not current:
             errors.append(name)
@@ -201,11 +245,22 @@ def main():
 
             if ctype in ("greenhouse", "lever"):
                 if added:
-                    log(f"  🚨 NEW JOBS at {name}: {added}")
+                    log(f"  🚨 NEW JOBS at {name}: {len(added)} jobs")
+                    
+                    parsed_jobs = []
+                    for job_str in added:
+                        parts = job_str.split("|||")
+                        if len(parts) == 3:
+                            u, t, l = parts
+                            # Better looking markup for telegram
+                            parsed_jobs.append(f"{t} | {l}\n    🔗 {u}")
+                        else:
+                            parsed_jobs.append(job_str)
+
                     changes.append({
                         "name": name, "url": url,
                         "type": "api",
-                        "new_jobs": list(added)
+                        "new_jobs": parsed_jobs
                     })
             else:
                 if added:          # hash changed
@@ -245,9 +300,9 @@ def main():
         for c in changes:
             if c["type"] == "api" and c["new_jobs"]:
                 jobs_str = "\n  • ".join(c["new_jobs"][:5])  # Cap at 5 titles
-                lines.append(f"🔔 *{c['name']}* — New Roles:\n  • {jobs_str}\n🔗 {c['url']}")
+                lines.append(f"🔔 *{c['name']}* — New Roles:\n  • {jobs_str}")
             else:
-                lines.append(f"🔔 *{c['name']}* — Career page updated\n🔗 {c['url']}")
+                lines.append(f"🔔 *{c['name']}* — Career page updated\n    🔗 {c['url']}")
         if errors:
             lines.append(f"\n⚠️ Could not check: {', '.join(errors[:10])}")
         send_telegram("\n\n".join(lines))
