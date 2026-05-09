@@ -1,56 +1,56 @@
 {
-  "Google": "81646ddbaee2f4d769f017f50989e2ba",
+  "Google": "eaa98a593cc4d321be447b8651d8f19c",
   "Amazon": "a8050fc0cdf7d6e35b0d2e0d0d549c08",
   "Apple": "2e8eab70181a35e721c209d3e27efa1d",
   "LinkedIn": "6acf5a94f7b44e29c5b4a31e8622e769",
-  "Qualcomm": "0f5c1523d8e07806affb59d68843c844",
+  "Qualcomm": "b3b7992605ea5a082f1fb6877089c2bc",
   "Oracle": "30162ed78b6c10f731411f2fc440c24f",
-  "Cisco": "cf38c3c940eb9c7e98ef871c401c7aab",
+  "Cisco": "ff9819597a1956eddc8a16e90449ba72",
   "Texas Instruments": "80293b4ff94467c0484a58bc2894e211",
   "IBM": "a4b800c0ded3ce1bf5798c93eebbc508",
   "SAP": "ec2e1cbebc78429fe1f8c3b6e37ec3b4",
   "Stripe": [
     "https://stripe.com/jobs/search?gh_jid=6814190|||Product Support Operations Associate, Weekend Shift |||Bengaluru",
-    "https://stripe.com/jobs/search?gh_jid=7540835|||Operations Associate, Sanctions (FinCrime)|||Bengaluru",
-    "https://stripe.com/jobs/search?gh_jid=7179634|||Bridge - Operations Associate |||Bengaluru",
-    "https://stripe.com/jobs/search?gh_jid=5423044|||Risk Operations Associate |||Bengaluru",
-    "https://stripe.com/jobs/search?gh_jid=7543868|||Software Engineer, Internal Systems|||Bengaluru, India",
-    "https://stripe.com/jobs/search?gh_jid=7608387|||Credit Risk Operations Associate|||Bangalore ",
+    "https://stripe.com/jobs/search?gh_jid=7236933|||Operations Associate, Apprenticeship|||Bengaluru",
     "https://stripe.com/jobs/search?gh_jid=7738241|||Verifications Operations Associate|||Bengaluru",
     "https://stripe.com/jobs/search?gh_jid=7780256|||Operations Associate, GTM Accelerate (Bangalore)|||Bengaluru",
-    "https://stripe.com/jobs/search?gh_jid=7236933|||Operations Associate, Apprenticeship|||Bengaluru",
+    "https://stripe.com/jobs/search?gh_jid=7179634|||Bridge - Operations Associate |||Bengaluru",
+    "https://stripe.com/jobs/search?gh_jid=7608387|||Credit Risk Operations Associate|||Bangalore ",
+    "https://stripe.com/jobs/search?gh_jid=7540835|||Operations Associate, Sanctions (FinCrime)|||Bengaluru",
+    "https://stripe.com/jobs/search?gh_jid=5423044|||Risk Operations Associate |||Bengaluru",
+    "https://stripe.com/jobs/search?gh_jid=7543868|||Software Engineer, Internal Systems|||Bengaluru, India",
     "https://stripe.com/jobs/search?gh_jid=7815571|||People Operations Associate - Fixed Term Contract|||Bengaluru"
   ],
   "Twilio": [
+    "https://job-boards.greenhouse.io/twilio/jobs/7728956|||Developer Advocacy Intern|||Remote - US",
     "https://job-boards.greenhouse.io/twilio/jobs/7748961|||Technical Video Content Intern, Developer Ecosystem|||Remote - US",
-    "https://job-boards.greenhouse.io/twilio/jobs/7748964|||Video Producer Intern|||Remote - US",
     "https://job-boards.greenhouse.io/twilio/jobs/7835625|||Graphic Design Intern (June 22nd start, 12 weeks)|||Remote - US",
-    "https://job-boards.greenhouse.io/twilio/jobs/7823588|||Go-to-market Analyst Intern (June 22nd start, 12 weeks)|||Remote - US",
-    "https://job-boards.greenhouse.io/twilio/jobs/7728956|||Developer Advocacy Intern|||Remote - US"
+    "https://job-boards.greenhouse.io/twilio/jobs/7748964|||Video Producer Intern|||Remote - US",
+    "https://job-boards.greenhouse.io/twilio/jobs/7823588|||Go-to-market Analyst Intern (June 22nd start, 12 weeks)|||Remote - US"
   ],
   "GitLab": [
     "https://job-boards.greenhouse.io/gitlab/jobs/8463951002|||Intermediate Backend Engineer, Gitlab Delivery: Upgrades|||Remote, India"
   ],
   "Rubrik": [
-    "https://www.rubrik.com/company/careers/departments/job.7770714?gh_jid=7770714|||Product Management Intern|||Bangalore",
-    "https://www.rubrik.com/company/careers/departments/job.7765355?gh_jid=7765355|||Product Management Intern|||Bangalore",
     "https://www.rubrik.com/company/careers/departments/job.7823214?gh_jid=7823214|||People Operations Intern|||Bangalore",
-    "https://www.rubrik.com/company/careers/departments/job.7844920?gh_jid=7844920|||Infosec Intern|||Bangalore",
-    "https://www.rubrik.com/company/careers/departments/job.7714998?gh_jid=7714998|||Legal Associate|||Bangalore",
+    "https://www.rubrik.com/company/careers/departments/job.7765355?gh_jid=7765355|||Product Management Intern|||Bangalore",
+    "https://www.rubrik.com/company/careers/departments/job.7819992?gh_jid=7819992|||Legal Intern |||Bangalore",
+    "https://www.rubrik.com/company/careers/departments/job.7770714?gh_jid=7770714|||Product Management Intern|||Bangalore",
     "https://www.rubrik.com/company/careers/departments/job.7820150?gh_jid=7820150|||India Benefits & AI Operations Intern|||Bangalore",
-    "https://www.rubrik.com/company/careers/departments/job.7819992?gh_jid=7819992|||Legal Intern |||Bangalore"
+    "https://www.rubrik.com/company/careers/departments/job.7844920?gh_jid=7844920|||Infosec Intern|||Bangalore",
+    "https://www.rubrik.com/company/careers/departments/job.7714998?gh_jid=7714998|||Legal Associate|||Bangalore"
   ],
   "Groww": [
-    "https://job-boards.eu.greenhouse.io/groww/jobs/4774342101|||Graphic Designer - Intern|||Bengaluru-VTP, India",
     "https://job-boards.eu.greenhouse.io/groww/jobs/4850792101|||Content - Intern|||Bengaluru-VTP, India",
+    "https://job-boards.eu.greenhouse.io/groww/jobs/4774342101|||Graphic Designer - Intern|||Bengaluru-VTP, India",
     "https://job-boards.eu.greenhouse.io/groww/jobs/4774341101|||Copy Writer - Intern|||Bengaluru-VTP, India",
     "https://job-boards.eu.greenhouse.io/groww/jobs/4771440101|||Video Editor Intern|||Bengaluru-VTP, India"
   ],
   "Dropbox": [
     "https://jobs.dropbox.com/listing/7723556?gh_jid=7723556|||Associate Commercial Counsel|||Remote - Canada: Select locations",
     "https://jobs.dropbox.com/listing/7812045?gh_jid=7812045|||Associate Product Counsel|||Remote - US: Select locations",
-    "https://jobs.dropbox.com/listing/7812046?gh_jid=7812046|||Associate Product Counsel|||Remote - Canada: Select locations",
-    "https://jobs.dropbox.com/listing/7723555?gh_jid=7723555|||Associate Commercial Counsel|||Remote - US: Select locations"
+    "https://jobs.dropbox.com/listing/7723555?gh_jid=7723555|||Associate Commercial Counsel|||Remote - US: Select locations",
+    "https://jobs.dropbox.com/listing/7812046?gh_jid=7812046|||Associate Product Counsel|||Remote - Canada: Select locations"
   ],
   "Flipkart": "e0110aede436639da1a6793ed1b69baf",
   "Zomato": "00a75ebafd1dda7bde82ae54fe2ec76f",
@@ -69,11 +69,11 @@
   "BlackRock": "076bb918e7956f8a31f2443531bb7441",
   "Axis Bank": "8cee77a35b8650affb6e00d4841161f9",
   "HDFC Bank": "71e6c758ce724fe0da1f08e349144c47",
-  "Snowflake": "13955a062c2c57c773635939fc1b35c4",
+  "Snowflake": "de9c666f984e0b2649613dcf5dc095b5",
   "Accenture": "299df7a494c31e3c3d0556ffb21b4ca0",
   "Capgemini": "342a19d5976871b9d2fd699dff78bcee",
   "Deloitte": "6325a0764f2f2a77dd201afa0922c4e2",
-  "BCG": "9196fef7704e06b794ddc2eaf11415bf",
+  "BCG": "cdbf369aad5d6c5be750342e09332f1b",
   "Bain & Company": "1cbf201ba95eda4e24b71a9e45d98d4c",
   "EY": "7f92efbbfd4796d8b4c99d14847fd71e",
   "PwC": "3597888f4f3b0b093383ee3c3b04369f",
@@ -89,19 +89,19 @@
   "Darwinbox": "781a39a2dc14be54a1d74239811dd43b",
   "HotStar": "5785ea634ba5e4a15a959ca9e59d3708",
   "Intuit": "6b9bed43ed83aa94cee056dbd96712de",
-  "PayPal": "0e846f74cd715f18ba522d711549258d",
-  "Mastercard": "57b2d3382445cf4b363eb4064067033e",
+  "PayPal": "75dd437b0ceffbcfe997910399deda28",
+  "Mastercard": "a87bbfa737058ec43b66dc995759188c",
   "American Express": "f3d15d0caa4870fa62acbf2af8c7c829",
-  "Expedia": "a8f12b663d1939e419407ea413066016",
+  "Expedia": "9bd7a71fa4701c23e999c57d5006be4d",
   "Walmart Global Tech": "b014862646f702d84f2e77351790d38d",
   "Palo Alto Networks": "264e6531122d0014e7b90cb733cdd0c4",
   "Zscaler": [
-    "https://job-boards.greenhouse.io/zscaler/jobs/5114254007|||Detection Engineer- SkillBridge Intern|||Remote - USA",
-    "https://job-boards.greenhouse.io/zscaler/jobs/5045817007|||Site Reliability Engineer-SkillBridge Intern|||Remote - USA",
-    "https://job-boards.greenhouse.io/zscaler/jobs/5046050007|||Site Reliability Engineer Federal- SkillBridge Intern|||Remote - Virginia, USA",
     "https://job-boards.greenhouse.io/zscaler/jobs/5065302007|||Phishing Analyst-SkillBridge Intern|||Remote - USA",
+    "https://job-boards.greenhouse.io/zscaler/jobs/5069684007|||Federal Security Operations - SkillBridge Intern|||Remote - USA",
+    "https://job-boards.greenhouse.io/zscaler/jobs/5114254007|||Detection Engineer- SkillBridge Intern|||Remote - USA",
+    "https://job-boards.greenhouse.io/zscaler/jobs/5046050007|||Site Reliability Engineer Federal- SkillBridge Intern|||Remote - Virginia, USA",
     "https://job-boards.greenhouse.io/zscaler/jobs/5100618007|||Insider Risk Analyst - SkillBridge Intern|||Remote - USA",
-    "https://job-boards.greenhouse.io/zscaler/jobs/5069684007|||Federal Security Operations - SkillBridge Intern|||Remote - USA"
+    "https://job-boards.greenhouse.io/zscaler/jobs/5045817007|||Site Reliability Engineer-SkillBridge Intern|||Remote - USA"
   ],
   "Pure Storage": [
     "https://job-boards.greenhouse.io/purestorage/jobs/7689246|||Associate Finance Consultant|||Remote, Illinois; Remote, New York; Remote, North Carolina"
@@ -109,8 +109,8 @@
   "GlobalLogic": "9bf559c905953913aceb0f377c9f6f5d",
   "Persistent Systems": "4c6a222a25cd18cdeccdeffc7bb74743",
   "Mphasis": "31a6f2b68fa0fecae2b5736507467e1e",
-  "Lam Research": "0c70664d04b55041670f469dbfe44069",
-  "Applied Materials": "09e6825f8f30adfb7024fd0744277ca1",
+  "Lam Research": "68a070a4f2eea56aa79697686d555f3d",
+  "Applied Materials": "bdc6fec7707a8665b2134cf7f38cb1a3",
   "Societe Generale": "38a641c8c2ac00c5610f7c1b2e174d4e",
   "BNY Mellon": "f4b0cb1a8d824c5765ca5c1f9e01e9bb",
   "Optum UHG": "ee8891b79b230bc447648fb7b845f6c3",
@@ -130,11 +130,11 @@
   "Healthifyme": "49f9a924dc886d9979d43501a6e8ee5e",
   "Charles Schwab": "3dc519993a05d413ad2849d3a64f04c3",
   "Cyient": "907efacbe6ffd0ea2cf87b181863ed9f",
-  "ABB": "52fa7c9c83a2ca1c6cadba24deb237c9",
+  "ABB": "e16b83020ff55c717d781cad6761fc3e",
   "D. E. Shaw": "1e3cf0908287c8bac91b29805579ea22",
   "Tower Research": "3a97fae188c8d2aeee1b38a3235aa1fd",
   "Arcesium": "e0e41e35c69816689e035fce198eca71",
-  "Splunk": "ac55e4b0ce7661ae7506a32a8ea12be8",
+  "Splunk": "a818962728197ef98b60e58627d41f47",
   "Zeta": "f0c69048f0bcb0c1818a9df9e58195e3",
   "Grab": "6d28d43b53caa570268b01171c04873a",
   "Coinbase": [
@@ -143,24 +143,24 @@
   "Juspay": "cd45ce56a634805d2fbc0239770c0cc4",
   "Instacart": [
     "https://instacart.careers/job/?gh_jid=7532267|||Machine Learning PhD Intern, Economics|||United States - Remote",
-    "https://instacart.careers/job/?gh_jid=7560993|||Sales Associate - San Francisco/Los Angeles|||United States - Remote",
     "https://instacart.careers/job/?gh_jid=7572155|||Sales Associate|||United States - Remote",
-    "https://instacart.careers/job/?gh_jid=5917202|||Machine Learning Engineer, PhD Intern|||United States - Remote",
-    "https://instacart.careers/job/?gh_jid=7558978|||Sales Associate - New York|||United States - Remote"
+    "https://instacart.careers/job/?gh_jid=7560993|||Sales Associate - San Francisco/Los Angeles|||United States - Remote",
+    "https://instacart.careers/job/?gh_jid=7558978|||Sales Associate - New York|||United States - Remote",
+    "https://instacart.careers/job/?gh_jid=5917202|||Machine Learning Engineer, PhD Intern|||United States - Remote"
   ],
   "Affirm": [
     "https://job-boards.greenhouse.io/affirm/jobs/7647925003|||Software Engineering Apprentice, Full-Stack|||Remote US",
     "https://job-boards.greenhouse.io/affirm/jobs/7711654003|||Customer Operations Associate I|||Remote Canada"
   ],
   "Block (Square)": "100de9c12348f455e15364dfc9d9b9df",
-  "Wise": "f4f8f9fec88f25043c718d71ee457821",
+  "Wise": "3ed6a86a949833dc9901e2f86a2ef4dc",
   "Monzo": "38f6b9714406a6107c6c125758f011f0",
   "Monday.com": "deb65816efc29cf811d7af3839f1df99",
   "Smartsheet": "11bb44e3e738e61330ac4d670fd5f9dd",
   "Delivery Hero": "15ba4f4f3f785ec84c8fc985140c0d9c",
   "Zalando": "44e63dc2eef6f4b2046057262a13ee23",
   "Shopee": "5b2f7fd9a95053326487e0e1eccae7a5",
-  "Chewy": "004aceb172a219f1d1755d9af1c57231",
+  "Chewy": "c3832f6c63a5912c19166d6a7ca3a01d",
   "UpGrad": "39e29f11ebfa31092578ae792af3f80a",
   "Kayak": "400b7966ec13f2dc33eaf3d3d5f410e3",
   "Teladoc": "e18e27cb42ef024e38a8a854587fc602",
@@ -171,24 +171,24 @@
   "Check Point": "112368501658a05584f4dbd91a283175",
   "Auth0": "4407231fc76bffb4309f77ecae616862",
   "EA": "08b49c9eac1e4dfec0a3037174d12a48",
-  "Activision Blizzard": "eeb37829ce134a655106799be7015765",
+  "Activision Blizzard": "51b06dcffbf93854f261361441a1c791",
   "Take-Two": "fe4df761d2d16f1d620094104a5cbc65",
   "Ubisoft": "ce232e981a1595b15f3e1ffa9b938e16",
   "Nintendo": "830d705d9eabaad2f168564e9b9933f9",
   "Sony Interactive": "8edf528ef3f5afa24c5bd2e22e68f250",
   "Epic Games": "db7471b7b57dbd1cb12e047b7edf4cd9",
   "Zynga": "7cdcbe3a4021443b081ffbe31abcd1be",
-  "King": "47276e46d023765ef7d9b42b90fa91be",
+  "King": "7b4c2c4a74c55c084b245c6fe70efb65",
   "Bumble": "d19c161ce136dd19b581578d3d732b2c",
   "Dell": "64fc8190c8d1b6791165187517395b28",
   "HP": "c26f500acfcffd02ab21e0ee4253dcea",
-  "HPE": "ec50a47ca852919195d341a9a9924814",
+  "HPE": "0e5f746773b7f07826c7b6fc99cf3906",
   "NetApp": "013b6c1c3a634d18bcfe037371f74fef",
-  "Juniper": "3c175fce7b91ba4f378df35e5d1f3fe2",
+  "Juniper": "78a1861a0b395bc219bf305ba77ee645",
   "Lockheed Martin": "1d2beac8def432a1cee960d779c841e4",
   "Northrop Grumman": "71da4386e3797214d4a82dad665580fa",
-  "Raytheon": "0cca08dcb6fec5b85dbb50fcf2558a0c",
-  "Waymo": "7749ebd6caf2cc096bf56480620f4246",
+  "Raytheon": "d543ed36a3b41402bd6b83739ada1edb",
+  "Waymo": "1182d8ef2cfb03847741830144731169",
   "DuckDuckGo": "6b7809f26ccb74c92d016021cc24b2a7",
   "Flexport": [
     "https://boards.greenhouse.io/flexport/jobs/7609526?gh_jid=7609526|||Air Operations Associate, Gurgaon|||New Delhi, India"
@@ -197,9 +197,9 @@
   "Fastly": [
     "https://www.fastly.com/about/jobs/apply?gh_jid=7814181|||Associate Presales Engineer (Pune Based)|||Pune, India"
   ],
-  "Qualtrics": "4df919f47754bf04d3ce1f8782b9cc8c",
+  "Qualtrics": "87368b572595a2b869b2776f106de15b",
   "Slack": "38ec0ce4291f9c960bc7f6d53ec51474",
-  "Tableau": "e86e26d40ede87dc717e0fada7c785e3",
+  "Tableau": "0cd83058943f847012f3ffb6d0cf914a",
   "Klarna": "c98d96fee4369e212b51b410b879e167",
   "Meta": "465e0724516de0794117c9fb07f48ab0",
   "Elastic": [
@@ -239,6 +239,6 @@
     "https://www.druva.com/why-druva/explore/careers/jobs/8517854002/?gh_jid=8517854002|||Associate Technical Support Engineer|||Pune, Maharashtra, India"
   ],
   "Revolut": "35f80e05f2b6ae75687002f1de9a82ce",
-  "TSMC": "cf413f01a0c82a3e5fa0766f41f9c319",
+  "TSMC": "1e18714aaef042069d8fe461e61edbfc",
   "WSO2": "8a381286d42d92dbebedfd109d29d111"
 }
