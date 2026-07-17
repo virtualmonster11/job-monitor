@@ -37161,3 +37161,43 @@
 [2026-07-17 15:44:15 UTC]   🚨 PAGE CHANGED: Tableau
 [2026-07-17 15:44:16 UTC] Done. Checked 350 | Changes: 40 | Errors: 208
 [2026-07-17 15:44:17 UTC] ============================================================
+[2026-07-17 16:12:54 UTC] ============================================================
+[2026-07-17 16:12:54 UTC] Job Monitor started
+[2026-07-17 16:12:59 UTC]   🚨 PAGE CHANGED: Google
+[2026-07-17 16:13:13 UTC]   🚨 PAGE CHANGED: Apple
+[2026-07-17 16:13:34 UTC]   🚨 PAGE CHANGED: Qualcomm
+[2026-07-17 16:13:47 UTC]   🚨 PAGE CHANGED: Cisco
+[2026-07-17 16:13:56 UTC]   🚨 PAGE CHANGED: SAP
+[2026-07-17 16:15:12 UTC]   🚨 PAGE CHANGED: Cars24
+[2026-07-17 16:21:44 UTC]   🚨 PAGE CHANGED: Snowflake
+[2026-07-17 16:27:45 UTC]   🚨 PAGE CHANGED: BCG
+[2026-07-17 16:29:28 UTC]   🚨 PAGE CHANGED: PayPal
+[2026-07-17 16:29:38 UTC]   🚨 PAGE CHANGED: Mastercard
+[2026-07-17 16:29:46 UTC]   🚨 PAGE CHANGED: Expedia
+[2026-07-17 16:30:14 UTC]   🚨 PAGE CHANGED: Lam Research
+[2026-07-17 16:30:19 UTC]   🚨 PAGE CHANGED: Applied Materials
+[2026-07-17 16:30:23 UTC]   🚨 PAGE CHANGED: Societe Generale
+[2026-07-17 16:34:21 UTC]   🚨 PAGE CHANGED: Dailyhunt
+[2026-07-17 16:34:51 UTC]   🚨 PAGE CHANGED: ABB
+[2026-07-17 16:35:05 UTC]   🚨 PAGE CHANGED: Arcesium
+[2026-07-17 16:35:41 UTC]   🚨 PAGE CHANGED: Splunk
+[2026-07-17 16:41:34 UTC]   🚨 NEW JOBS at Coinbase: 1 jobs
+[2026-07-17 16:41:43 UTC]   🚨 PAGE CHANGED: Revolut
+[2026-07-17 16:41:54 UTC]   🚨 PAGE CHANGED: Wise
+[2026-07-17 16:42:09 UTC]   🚨 PAGE CHANGED: Delivery Hero
+[2026-07-17 16:42:31 UTC]   🚨 PAGE CHANGED: Chewy
+[2026-07-17 16:43:01 UTC]   🚨 PAGE CHANGED: Kayak
+[2026-07-17 16:48:58 UTC]   🚨 PAGE CHANGED: TSMC
+[2026-07-17 16:55:04 UTC]   🚨 PAGE CHANGED: EA
+[2026-07-17 16:55:14 UTC]   🚨 PAGE CHANGED: Activision Blizzard
+[2026-07-17 16:55:25 UTC]   🚨 PAGE CHANGED: Sony Interactive
+[2026-07-17 16:56:00 UTC]   🚨 PAGE CHANGED: King
+[2026-07-17 16:56:36 UTC]   🚨 PAGE CHANGED: HPE
+[2026-07-17 17:02:30 UTC]   🚨 PAGE CHANGED: Juniper
+[2026-07-17 17:02:47 UTC]   🚨 PAGE CHANGED: Raytheon
+[2026-07-17 17:02:50 UTC]   🚨 PAGE CHANGED: Waymo
+[2026-07-17 17:03:42 UTC]   🚨 PAGE CHANGED: Qualtrics
+[2026-07-17 17:03:50 UTC]   🚨 PAGE CHANGED: Slack
+[2026-07-17 17:03:53 UTC]   🚨 PAGE CHANGED: Tableau
+[2026-07-17 17:03:54 UTC] Done. Checked 350 | Changes: 36 | Errors: 206
+[2026-07-17 17:03:55 UTC] ============================================================
